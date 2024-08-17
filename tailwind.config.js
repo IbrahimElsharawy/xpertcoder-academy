@@ -9,6 +9,9 @@ export default {
       backgroundColor:{
         'navbar-color':"#73c9c0",
         'button-color':"#009c8c"
+      },
+      textColor:{
+        'custom-color':"#009c8c"
       }
     },
   },
