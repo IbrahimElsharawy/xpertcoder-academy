@@ -33,7 +33,7 @@ const Navbar = () => {
     <div className="w-screen h-[80px]   z-20  top-0 bg-navbar-color px-4">
       <div className="px-2 flex justify-between items-center w-full h-full max-w-[1240px] mx-auto">
         
-        <div className="hidden md:flex items-center">
+        <div className="hidden lg:flex items-center">
        <img src={logo} alt="Xpertcoderacademy" className="mr-16 " />
           <NavLink
             style={navlinkStyles}
@@ -79,7 +79,7 @@ const Navbar = () => {
         </div>
 
         <div
-          className="md:hidden cursor-pointer text-black "
+          className="lg:hidden cursor-pointer text-black "
           onClick={handleClick}
         >
           {click ? <FaTimes /> : <FaBars />}
@@ -93,7 +93,7 @@ const Navbar = () => {
       <div
         className={
           click
-            ? "absolute left-0 bg-white w-full  px-8 flex flex-col"
+            ? "absolute left-0 bg-white w-full  px-8 flex flex-col z-10"
             : "hidden"
         }
       >
